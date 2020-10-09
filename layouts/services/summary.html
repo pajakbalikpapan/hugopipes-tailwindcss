@@ -1,0 +1,8 @@
+<div class="service-item">
+  {{ if .Params.intro_image_absolute }}
+  <img src="{{ .Params.intro_image }}" alt="Set of tools" class="h-32 block mb-4 mx-auto">
+  <i class="fab fa-empire"></i>
+  {{ end }}  
+  <h2 class="text-lg font-semibold mb-4"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+  <p class="text-paragraph">{{ .Content | plainify | htmlUnescape | truncate 120 "…" }}</p>
+</div>

@@ -1,0 +1,89 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Pengurusan Penghapusan NPWP - Pajak</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" type="image/png" href="../../favicon-32x32.svg">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js" defer></script>
+
+  
+  
+  <link rel="stylesheet" href="https://pajakbalikpapan.github.io/css/styles.min.3f15dd04f00b546e81609fc658c7f503636115fcc5aaeeff5ce9b1dcb708d094.css" integrity="sha256-PxXdBPALVG6BYJ/GWMf1A2NhFfzFqu7/XOmx3LcI0JQ=">
+
+  
+
+
+</head>
+
+<body class="antialiased subpixel-antialiased">
+  <nav class="flex items-center justify-between flex-wrap p-2 fixed w-full z-10 top-0" x-data="{ isOpen: false }"
+  @keydown.escape="isOpen = false" :class="{ 'shadow-lg bg-white' : isOpen , 'bg-white' : !isOpen}">
+  
+  <div class="flex items-center flex-shrink-0 text-black mr-6">
+    <a class="text-black no-underline hover:text-black hover:no-underline" href="https://pajakbalikpapan.github.io/">
+      <span class="text-2xl pl-2"><i class="em em-grinning"></i>
+        Pajak Balikpapan
+      </span>
+    </a>
+  </div>
+
+  
+  <button @click="isOpen = !isOpen" type="button" class="block md:hidden px-2 text-gray-900 hover:text-red-500 focus:outline-none focus:text-red-600"
+    :class="{ 'transition transform-180': isOpen }">
+    <svg class="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path x-show="isOpen" fill-rule="evenodd" clip-rule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z" /><path x-show="!isOpen" fill-rule="evenodd"d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z" /></svg>
+  </button>
+
+  
+  <div class="w-full flex-grow md:flex md:items-center md:w-auto"
+    :class="{ 'block shadow-3xl': isOpen, 'hidden': !isOpen }" @click.away="isOpen = false" x-show.transition="true">
+    <ul class="pt-6 md:pt-0 list-reset md:flex justify-end flex-1 items-center">
+      
+      
+      <li class="mr-3">
+        <a class="inline-block py-2 px-4 text-headline hover:text-gray-800 no-underline " href="../../services/"
+          @click="isOpen = false">
+          <span>Services</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+
+        
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <div class="service service-single">
+        <h1 class="title">Pengurusan Penghapusan NPWP</h1>
+        <div class="content"><p>Wajib Pajak yang sudah <strong>tidak memenuhi persyaratan subjektif dan/atau objektif</strong> sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.</p>
+<h2 id="jenis-wajib-pajak-yang-dapat-mengajukan-permohonan-penghapusan-npwp">Jenis Wajib Pajak yang dapat mengajukan permohonan Penghapusan NPWP</h2>
+<ul>
+<li>Wajib Pajak orang pribadi yang telah meninggal dunia dan tidak meninggalkan warisan.</li>
+<li>Wajib Pajak orang pribadi yang telah meninggalkan Indonesia untuk selama-lamanya.</li>
+<li>Wajib Pajak orang pribadi yang berstatus sebagai pengurus, komisaris, pemegang saham atau pemilik, dan pegawai yang telah diberikan NPWP dan penghasilan netonya tidak melebihi PTKP.</li>
+<li>Wanita kawin yang memiliki NPWP terpisah dari suaminya.</li>
+<li>Anak yang belum berumur 18 (delapan belas) tahun dan belum pernah menikah, namun telah memiliki NPWP.</li>
+<li>Wajib Pajak Warisan Belum Terbagi dalam hal warisan telah selesai dibagi.</li>
+<li>Wajib Pajak cabang yang tidak melakukan kegiatan usaha lagi atau ditutup, atau tempat kegiatan usahanya pindah ke wilayah kerja KPP lain</li>
+<li>Wajib Pajak Badan yang dilikuidasi atau dibubarkan.</li>
+<li>Wajib Pajak bentuk usaha tetap yang telah menghentikan kegiatan usahanya di Indonesia</li>
+<li>Instansi Pemerintah yang dilikuidasi</li>
+<li>Wajib Pajak yang memiliki lebih dari satu NPWP</li>
+</ul>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+</html>

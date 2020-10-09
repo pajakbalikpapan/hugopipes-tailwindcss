@@ -27,8 +27,8 @@ theme: {
     },
     colors: {
       'background':'#fffffe',
-      'headline':'#094067',
-      'paragraph': '#5f6c7b',
+      'headline':'#020826',
+      'paragraph': '#172c66',
       'button': '#3da9fc',
       'button-text': '#fffffe',
     },

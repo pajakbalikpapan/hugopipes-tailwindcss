@@ -1,0 +1,254 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Services - Pajak</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" type="image/png" href="../favicon-32x32.svg">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js" defer></script>
+
+  
+  
+  <link rel="stylesheet" href="https://pajakbalikpapan.github.io/css/styles.min.3f15dd04f00b546e81609fc658c7f503636115fcc5aaeeff5ce9b1dcb708d094.css" integrity="sha256-PxXdBPALVG6BYJ/GWMf1A2NhFfzFqu7/XOmx3LcI0JQ=">
+
+  
+
+
+</head>
+
+<body class="antialiased subpixel-antialiased">
+  <nav class="flex items-center justify-between flex-wrap p-2 fixed w-full z-10 top-0" x-data="{ isOpen: false }"
+  @keydown.escape="isOpen = false" :class="{ 'shadow-lg bg-white' : isOpen , 'bg-white' : !isOpen}">
+  
+  <div class="flex items-center flex-shrink-0 text-black mr-6">
+    <a class="text-black no-underline hover:text-black hover:no-underline" href="https://pajakbalikpapan.github.io/">
+      <span class="text-2xl pl-2"><i class="em em-grinning"></i>
+        Pajak Balikpapan
+      </span>
+    </a>
+  </div>
+
+  
+  <button @click="isOpen = !isOpen" type="button" class="block md:hidden px-2 text-gray-900 hover:text-red-500 focus:outline-none focus:text-red-600"
+    :class="{ 'transition transform-180': isOpen }">
+    <svg class="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path x-show="isOpen" fill-rule="evenodd" clip-rule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z" /><path x-show="!isOpen" fill-rule="evenodd"d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z" /></svg>
+  </button>
+
+  
+  <div class="w-full flex-grow md:flex md:items-center md:w-auto"
+    :class="{ 'block shadow-3xl': isOpen, 'hidden': !isOpen }" @click.away="isOpen = false" x-show.transition="true">
+    <ul class="pt-6 md:pt-0 list-reset md:flex justify-end flex-1 items-center">
+      
+      
+      <li class="mr-3">
+        <a class="inline-block py-2 px-4 text-headline hover:text-gray-800 no-underline  active" href="../services/"
+          @click="isOpen = false">
+          <span>Services</span>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+
+        
+<div class="intro">
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+        <h1 id="akuntansi--perpajakan">Akuntansi &amp; Perpajakan</h1>
+<p>Kami mempermudah Perusahaan anda dalam membuat laporan keuangan dan laporan perpajakan</p>
+
+      </div>
+      
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+        <img alt=Services 
+    class="w-1/2 mx-auto intro-imageabsolute  hidden sm:block"
+    src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/work/carousel-desktop/notes-v5/en-US.png" />
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+8
+
+<div class="w-full mt-4">
+  <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    
+    <div class="service-item">
+    
+  <h2 class="text-lg font-semibold mb-4"><a href="https://pajakbalikpapan.github.io/services/pengurusan-nomor-pokok-wajib-pajak/">Pengurusan Nomor Pokok Wajib Pajak</a></h2>
+  <p class="text-paragraph">Pendaftaran Wajib Pajak dilakukan dengan mengajukan permohonan secara elektronik atau tertulis, dan dilampiri dengan…</p>
+</div>
+    
+    <div class="service-item">
+    
+  <h2 class="text-lg font-semibold mb-4"><a href="https://pajakbalikpapan.github.io/services/spt-masa-ppn-nihil/">SPT Masa PPN Nihil</a></h2>
+  <p class="text-paragraph">SPT Masa PPN Nihil tetap wajib dilaporkan meskipun tidak ada transaksi.
+SPT ini digunakan untuk persyaratan tender atau…</p>
+</div>
+    
+    <div class="service-item">
+    
+  <h2 class="text-lg font-semibold mb-4"><a href="https://pajakbalikpapan.github.io/services/pengurusan-pengusaha-kena-pajak/">Pengurusan Pengusaha Kena Pajak</a></h2>
+  <p class="text-paragraph">Pengusaha yang melakukan penyerahan yang merupakan objek pajak sesuai Undang-Undang PPN, kecuali pengusaha kecil yang…</p>
+</div>
+    
+    <div class="service-item">
+    
+  <h2 class="text-lg font-semibold mb-4"><a href="https://pajakbalikpapan.github.io/services/jasa-pajak-bulanan/">Jasa Pajak Bulanan</a></h2>
+  <p class="text-paragraph">Apabila SPT tidak disampaikan dalam jangka waktu penyampaian atau batas waktu perpanjangan penyampaian SPT, Wajib Pajak…</p>
+</div>
+    
+    <div class="service-item">
+    
+  <h2 class="text-lg font-semibold mb-4"><a href="https://pajakbalikpapan.github.io/services/pengurusan-penonaktifan-npwp/">Pengurusan Penonaktifan NPWP</a></h2>
+  <p class="text-paragraph">Wajib Pajak Non-Efektif adalah Wajib Pajak yang tidak memenuhi persyaratan subjektif dan/atau objektif namun belum…</p>
+</div>
+    
+    <div class="service-item">
+    
+  <h2 class="text-lg font-semibold mb-4"><a href="https://pajakbalikpapan.github.io/services/pengurusan-pencabutan-pengukuhan-pkp/">Pengurusan Pencabutan Pengukuhan PKP</a></h2>
+  <p class="text-paragraph">Pencabutan Pengukuhan PKP adalah tindakan mencabut Pengukuhan PKP dari administrasi Direktorat Jenderal Pajak.
+Direktur…</p>
+</div>
+    
+    <div class="service-item">
+    
+  <h2 class="text-lg font-semibold mb-4"><a href="https://pajakbalikpapan.github.io/services/pengurusan-penghapusan-npwp/">Pengurusan Penghapusan NPWP</a></h2>
+  <p class="text-paragraph">Wajib Pajak yang sudah tidak memenuhi persyaratan subjektif dan/atau objektif sesuai dengan ketentuan peraturan…</p>
+</div>
+    
+  </div>
+  
+</div>
+
+
+<section class="text-paragraph font-sans">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-left">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-semibold text-headline leading-snug">
+        <a href="https://pajakbalikpapan.github.io/services/pengurusan-nomor-pokok-wajib-pajak/">Pengurusan Nomor Pokok Wajib Pajak</a>
+      </h1>
+      <p class="mb-8 leading-relaxed text-paragraph">
+        Pendaftaran Wajib Pajak dilakukan dengan mengajukan permohonan secara elektronik atau tertulis, dan dilampiri dengan dokumen yang disyaratkan. (Pasal…
+      </p>
+    </div>
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <img class="" alt="hero" style="width: 180px; display: block; margin: 0px auto 25px;" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/personal/people/swapna.png">
+    </div>
+  </div>
+</section>
+
+<section class="text-paragraph font-sans">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-left">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-semibold text-headline leading-snug">
+        <a href="https://pajakbalikpapan.github.io/services/spt-masa-ppn-nihil/">SPT Masa PPN Nihil</a>
+      </h1>
+      <p class="mb-8 leading-relaxed text-paragraph">
+        SPT Masa PPN Nihil tetap wajib dilaporkan meskipun tidak ada transaksi.
+SPT ini digunakan untuk persyaratan tender atau lelang.
+Laporan ini agar…
+      </p>
+    </div>
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <img class="" alt="hero" style="width: 180px; display: block; margin: 0px auto 25px;" src="images/undraw_selection_92i4.svg">
+    </div>
+  </div>
+</section>
+
+<section class="text-paragraph font-sans">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-left">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-semibold text-headline leading-snug">
+        <a href="https://pajakbalikpapan.github.io/services/pengurusan-pengusaha-kena-pajak/">Pengurusan Pengusaha Kena Pajak</a>
+      </h1>
+      <p class="mb-8 leading-relaxed text-paragraph">
+        Pengusaha yang melakukan penyerahan yang merupakan objek pajak sesuai Undang-Undang PPN, kecuali pengusaha kecil yang batasannya ditetapkan oleh…
+      </p>
+    </div>
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <img class="" alt="hero" style="width: 180px; display: block; margin: 0px auto 25px;" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/shared/features/drag-and-drop-v2/en-US.gif">
+    </div>
+  </div>
+</section>
+
+<section class="text-paragraph font-sans">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-left">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-semibold text-headline leading-snug">
+        <a href="https://pajakbalikpapan.github.io/services/jasa-pajak-bulanan/">Jasa Pajak Bulanan</a>
+      </h1>
+      <p class="mb-8 leading-relaxed text-paragraph">
+        Apabila SPT tidak disampaikan dalam jangka waktu penyampaian atau batas waktu perpanjangan penyampaian SPT, Wajib Pajak dikenai sanksi administrasi…
+      </p>
+    </div>
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <img class="" alt="hero" style="width: 180px; display: block; margin: 0px auto 25px;" src="images/undraw_selection_92i4.svg">
+    </div>
+  </div>
+</section>
+
+<section class="text-paragraph font-sans">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-left">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-semibold text-headline leading-snug">
+        <a href="https://pajakbalikpapan.github.io/services/pengurusan-penonaktifan-npwp/">Pengurusan Penonaktifan NPWP</a>
+      </h1>
+      <p class="mb-8 leading-relaxed text-paragraph">
+        Wajib Pajak Non-Efektif adalah Wajib Pajak yang tidak memenuhi persyaratan subjektif dan/atau objektif namun belum dilakukan Penghapusan NPWP.
+WP yang…
+      </p>
+    </div>
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <img class="" alt="hero" style="width: 180px; display: block; margin: 0px auto 25px;" src="images/undraw_selection_92i4.svg">
+    </div>
+  </div>
+</section>
+
+<section class="text-paragraph font-sans">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-left">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-semibold text-headline leading-snug">
+        <a href="https://pajakbalikpapan.github.io/services/pengurusan-pencabutan-pengukuhan-pkp/">Pengurusan Pencabutan Pengukuhan PKP</a>
+      </h1>
+      <p class="mb-8 leading-relaxed text-paragraph">
+        Pencabutan Pengukuhan PKP adalah tindakan mencabut Pengukuhan PKP dari administrasi Direktorat Jenderal Pajak.
+Direktur Jenderal Pajak dapat melakukan…
+      </p>
+    </div>
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <img class="" alt="hero" style="width: 180px; display: block; margin: 0px auto 25px;" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/personal/people/alex.png">
+    </div>
+  </div>
+</section>
+
+<section class="text-paragraph font-sans">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-left">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-semibold text-headline leading-snug">
+        <a href="https://pajakbalikpapan.github.io/services/pengurusan-penghapusan-npwp/">Pengurusan Penghapusan NPWP</a>
+      </h1>
+      <p class="mb-8 leading-relaxed text-paragraph">
+        Wajib Pajak yang sudah tidak memenuhi persyaratan subjektif dan/atau objektif sesuai dengan ketentuan peraturan perundang-undangan di bidang…
+      </p>
+    </div>
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <img class="" alt="hero" style="width: 180px; display: block; margin: 0px auto 25px;" src="https://prod-notion-assets.s3-us-west-2.amazonaws.com/front/personal/benefits/android-writing.png">
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+</html>

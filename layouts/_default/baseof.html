@@ -22,15 +22,14 @@
 
 </head>
 
-<body class="antialiased">
+<body class="antialiased subpixel-antialiased">
   {{ partial "main-menu.html" . }}
-    <div class="container px-5 py-24 mx-auto">
-      <div class="flex flex-col text-center w-full mb-20">
+
         {{ block "main" . }}
     <!-- The part of the page that begins to differ between templates -->
     {{ end }}
-      </div>
-    </div>
+
+
 {{ block "footer_js" . }}
 {{ end }}
 </html>
