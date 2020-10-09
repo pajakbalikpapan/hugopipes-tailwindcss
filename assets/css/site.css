@@ -1,4 +1,21 @@
-.bud {
-  color: red;  
+body {
+  font-family: 'Inter', sans-serif; /* 1 */
+  background-color: #fffefc;
 }
-  
+
+h1 {
+  @apply text-5xl font-bold;
+
+
+  @screen lg {
+     @apply text-6xl;
+  }
+
+  @screen xl {
+     @apply text-7xl;
+  }
+}
+
+.home > h5 {
+  @apply text-base font-normal text-gray-400;
+}
